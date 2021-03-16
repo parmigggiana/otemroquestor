@@ -1,0 +1,21 @@
+{
+    "name": "questor",
+    "displayName": "'O Tehm ro Questor",
+    "description": "Il tema del questore",
+    "version": "0.0.2",
+    "engines": {
+        "vscode": "^1.54.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "'O Tehm ro Questor",
+                "uiTheme": "vs-dark",
+                "path": "./themes/questor-color-theme.json"
+            }
+        ]
+    }
+}
