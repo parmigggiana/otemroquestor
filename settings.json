@@ -109,7 +109,7 @@
     "files.trimTrailingWhitespace": true,
     "files.trimFinalNewlines": true,
     "workbench.enableExperiments": false,
-    "editor.codeActionsOnSave": null,
-    "workbench.colorTheme": "'O Questor re tem", // Useless and it's a warning but VScode puts it back there if you remove it
+    "workbench.colorTheme": "'O Questor re tem", 
+    "editor.codeActionsOnSave": null,   // Useless and it's a warning but VScode puts it back there if you remove it
     /****/
 }
