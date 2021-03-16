@@ -1,0 +1,115 @@
+{
+    /** Plugins List **/
+    // C/C++
+    // Better C++ Syntax
+    // C/C++ Compile Run
+    // Bracket Highlighter
+    // TODO Highlight
+    // Include Autocomplete
+    // Auto Add Brackets in String Interpolation
+    // colorize
+    // Fish
+    // Fluent Icons
+    // Material Icon Theme
+    // 'O Tehm ro Questor
+    // One Monokai Theme    – Disabled
+    // Horizon Theme    – Disabled
+    /***/
+
+    /** General Themeing **/
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.productIconTheme": "fluent-icons",
+
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": "'ss01', 'ss02', 'ss04', 'ss06', 'ss07'",
+    "editor.fontWeight": "400", // Regular – 300 is thin, 500 is bold
+
+    "workbench.colorCustomizations": { // make some higlighting less in-your-face
+        "editor.selectionHighlightBackground": "#94a39e34", // similar selection
+        "editor.selectionHighlightBorder": "#0000",
+
+        "editor.wordHighlightStrongBackground": "#94a39e34", // syntax variable assignment
+        "editor.wordHighlightStrongBorder": "#0000",
+
+        "editor.wordHighlightBackground": "#94a39e34", // syntax variable
+        "editor.wordHighlightBorder": "#0000",
+
+        "editorBracketMatch.border": "#0000",// set default brackets matching to transparent
+        "editorBracketMatch.background": "#0000", // it is also disabled down in the code anyway
+    },
+
+    "editor.cursorSmoothCaretAnimation": true,
+    "C_Cpp.enhancedColorization": "Enabled",
+    /****/
+
+    /** Keywords Highlight **/
+    "todohighlight.keywords": [
+        {
+            "text": "TODO:",
+            "color": "black",
+            "border": "1px solid rgba(255,225,130,50)",
+            "borderRadius": "2px", //NOTE: using borderRadius along with `border` or you will see nothing change
+            "backgroundColor": "rgba(255,225,130,80)",
+            "overviewRulerColor": "rgba(255,225,130,80)"
+        },
+        {
+            "text": "FIXME:",
+            "color": "black",
+            "border": "1px solid rgba(255,140,150,80)",
+            "borderRadius": "2px", //NOTE: using borderRadius along with `border` or you will see nothing change
+            "backgroundColor": "rgba(255,140,150,100)",
+            "overviewRulerColor": "rgba(255,140,150,100)"
+        }
+    ],
+    "todohighlight.defaultStyle": {
+        "color": "white",
+        "backgroundColor": "green",
+        "overviewRulerColor": "green",
+        "borderRadius": "2px",
+        "isWholeLine": false,
+    },
+    /****/
+
+    /** Color HEX and RGB tags **/
+    "colorize.include": [
+        "**/*.css",
+        "**/*.scss",
+        "**/*.sass",
+        "**/*.less",
+        "**/*.styl",
+        "**/*.json",
+        "**/*.cpp"
+    ],
+    /****/
+
+    /** Brackets **/
+    "editor.matchBrackets": "never",
+    "editor.autoClosingBrackets": "beforeWhitespace",
+    "BracketHighlighter.enableExtension": true,
+    "BracketHighlighter.textColor": "#FFFE8D",
+    "BracketHighlighter.fontWeight": "500",
+    "BracketHighlighter.useParentheses": true,
+    "BracketHighlighter.useBraces": true,
+    "BracketHighlighter.useBrackets": true,
+    "BracketHighlighter.maxLineSearchCount": 500,
+    "BracketHighlighter.reverseSearchEnabled": true,
+    "BracketHighlighter.highlightScopeFromText": true,
+    "BracketHighlighter.useAngularBrackets": false,
+    "BracketHighlighter.timeOutValue": 300,
+    "BracketHighlighter.ignoreContent": true,
+    /****/
+
+    /** Misc Settings **/
+    "files.defaultLanguage": "cpp",
+    "C_Cpp.codeFolding": "Disabled", // I don't like code folding but maybe try it
+    "diffEditor.codeLens": true,
+    "files.autoGuessEncoding": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 60000,
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "workbench.enableExperiments": false,
+    "editor.codeActionsOnSave": null,
+    "workbench.colorTheme": "'O Questor re tem", // Useless and it's a warning but VScode puts it back there if you remove it
+    /****/
+}
